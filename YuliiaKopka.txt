@@ -1,0 +1,29 @@
+Feature name	Acceptance criteria	Priority	Test case ID	               Summary	                                         Validations Steps	                                                                                                          Expected results
+Compare Products	AC1	         P1	         1.1	        Ability to add products to comparison list	"1.Navigate to Product Listing Page.
+2.Mark at least 2 products as products for comparison(via check box).
+3.Click “Compare Now” botton.
+"	   "1.System displays comparison area with products that have been added.
+2.System display “Compare Now” button
+"
+Compare Products	AC2	         P1	         1.2	        Ability to compare products 	                "1.Navigate to Comparison page with  products that have been added. 
+2.Press button “Compare Now”.
+
+"	                                   "1.System redirect user to product comparison page.
+"
+Compare Products	AC1	         P1	         1.3	Ability to delete product from comparison list	        "1.Navigate to Product List Page.
+2.Press button to delete selected product from comparison list.
+"	                                   "1. System deletes selected product from comparison list.
+2. Check box becomes clear for selected products.
+3. Comparison list shows only products  that user wants to compare.
+"
+Compare Products	AC1	         P1	         1.4	Ability of end user to highlight compared product attributes 	"1.Navigate to Comparison Page. 
+2.Press “Differences”  button.
+"	                                                                   "1.The Product attributes rows that contain attribute values that are equal, highlighted in yellow."
+Compare Products	AC1	         P1	         1.5	Ability of end user to add product to cart from comparison page. "1.Navigate  to Comparison Page with selected products.2.Press “Add  to cart” button.                                             "1.System add selected products to shopping cart.
+2.System display Add to Cart confirmation message (above the Compare products section).
+"
+						
+						
+						
+						
+						
